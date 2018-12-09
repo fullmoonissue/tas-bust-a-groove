@@ -1,0 +1,6 @@
+SystemID PSX
+068740	d	u	0	MainRAM	P1, Score
+068744	d	u	0	MainRAM	P2, Score
+068768	d	u	0	MainRAM	P1, Enthusiasm
+06877C	d	u	0	MainRAM	P2, Enthusiasm
+

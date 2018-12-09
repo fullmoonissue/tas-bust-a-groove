@@ -1,0 +1,12 @@
+# Values in config.lua will always change during the tas and are not valuable
+config.lua
+
+# cf README.md (overlay section)
+mediator.lua
+
+# Rocks installed from make install
+lua_modules
+
+# Script's output not versioned because they will be updated frequently
+scripts/output/*
+!scripts/output/.gitkeep
