@@ -1,4 +1,4 @@
-require('utils/class')
+require('scripts/class')
 
 Node = class(function(node, name)
     node.name = name

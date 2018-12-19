@@ -1,7 +1,7 @@
 local bag = {}
 local currentPlayer = 'P1'
 
-local Input = setmetatable(
+return setmetatable(
     {
         bag = bag,
         currentPlayer = currentPlayer,
@@ -37,8 +37,6 @@ local Input = setmetatable(
 
                     return currentFrame
                 end,
-
-                -- Begin of atomic buttons
 
                 up = function(self, frame, iterations)
                     return self.add(frame, iterations, { [currentPlayer .. ' Up'] = true })
@@ -139,11 +137,7 @@ local Input = setmetatable(
                 r2 = function(self, frame, iterations)
                     return self.add(frame, iterations, { [currentPlayer .. ' R2'] = true })
                 end,
-
-                -- End of atomic buttons
             }
         end
     }
 )
-
-return Input

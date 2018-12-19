@@ -1,4 +1,4 @@
-require('utils/class')
+require('scripts/class')
 
 Writer = class(function(writer)
     writer.contents = {}

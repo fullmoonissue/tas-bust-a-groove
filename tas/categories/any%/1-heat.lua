@@ -4,7 +4,7 @@ local input = require('bizhawk/input')()
 local cf = 5668
 
 -- Sequence 1
--- Combo n° 3
+-- Combo n° 1
 cf = input:circle(cf)
 
 cf = input:cross(cf + 104)
@@ -20,160 +20,84 @@ cf = input:cross(cf + 64)
 
 cf = input:right(cf + 40)
 cf = input:right(cf + 2)
-cf = input:circle(cf + 62)
+cf = input:cross(cf + 62)
 
-cf = input:left(cf + 40)
-cf = input:left(cf + 2)
-cf = input:circle(cf + 62)
+cf = input:down(cf + 40)
+cf = input:down(cf + 2)
+cf = input:cross(cf + 62)
 
-cf = input:right(cf + 40)
+cf = input:up(cf + 40)
 cf = input:right(cf + 2)
-cf = input:right(cf + 2)
-cf = input:circle(cf + 50)
+cf = input:cross(cf + 52)
 
 -- Sequence 2
--- Combo n° 49
-cf = input:circle(cf + 206)
-
-cf = input:right(cf + 40)
+-- Combo n° 33 (forwarded)
+cf = cf + 104
+cf = input:left(cf + 40)
 cf = input:circle(cf + 64)
 
-cf = input:up(cf + 40)
-cf = input:up(cf + 2)
+cf = input:down(cf + 40)
+cf = input:circle(cf + 64)
+
+cf = input:down(cf + 40)
+cf = input:down(cf + 2)
 cf = input:circle(cf + 62)
 
-cf = input:up(cf + 40)
-cf = input:up(cf + 2)
-cf = input:cross(cf + 62)
+cf = input:right(cf + 40)
+cf = input:right(cf + 2)
+cf = input:circle(cf + 62)
 
 cf = input:left(cf + 40)
-cf = input:right(cf + 2)
-cf = input:cross(cf + 62)
+cf = input:left(cf + 2)
+cf = input:circle(cf + 62)
 
-cf = input:down(cf + 40)
+cf = input:right(cf + 40)
 cf = input:right(cf + 2)
-cf = input:cross(cf + 62)
-
-cf = input:down(cf + 40)
-cf = input:down(cf + 2)
-cf = input:down(cf + 2)
-cf = input:cross(cf + 60)
+cf = input:right(cf + 2)
+cf = input:circle(cf + 60 - 10)
 
 -- All eyes on me 1
-cf = input:up(cf + 18)
-cf = input:up(cf + 2)
-cf = input:circle(cf + 80)
+cf = cf + 104
+cf = input:down(cf + 40)
+cf = input:cross(cf + 64)
 
-cf = input:down(cf + 22)
-cf = input:down(cf + 2)
-cf = input:circle(cf + 80)
+cf = input:up(cf + 40)
+cf = input:up(cf + 2)
+cf = input:cross(cf + 62)
 
 -- All eyes on me 2
-cf = input:down(cf + 224)
-cf = input:cross(cf + 78)
-
-cf = input:up(cf + 22)
+cf = cf + (104 * 2) - 8
+cf = input:up(cf + 40)
 cf = input:up(cf + 2)
-cf = input:cross(cf + 80)
+cf = input:circle(cf + 62)
 
-cf = input:up(cf + 22)
+cf = input:down(cf + 40)
+cf = input:down(cf + 2)
+cf = input:circle(cf + 62)
+
+cf = input:right(cf + 40)
 cf = input:right(cf + 2)
-cf = input:cross(cf + 80)
+cf = input:right(cf + 2)
+cf = input:circle(cf + 60)
 
-cf = input:right(cf + 22)
+cf = input:left(cf + 40)
 cf = input:left(cf + 2)
-cf = input:cross(cf + 80)
+cf = input:left(cf + 2)
+cf = input:circle(cf + 60)
 
 -- All eyes on me 3
-cf = input:up(cf + 426)
-cf = input:up(cf + 2)
-cf = input:circle(cf + 80)
+cf = cf + (104 * 4) - 10
+cf = input:down(cf + 40)
+cf = input:cross(cf + 64)
 
-cf = input:down(cf + 22)
-cf = input:down(cf + 2)
-cf = input:circle(cf + 80)
+cf = input:up(cf + 40)
+cf = input:up(cf + 2)
+cf = input:cross(cf + 62)
 
 -- Sequence 3
--- Combo n° 64
-cf = input:circle(cf + 304)
-
-cf = input:right(cf + 40)
-cf = input:circle(cf + 64)
-
-cf = input:up(cf + 40)
-cf = input:up(cf + 2)
-cf = input:circle(cf + 62)
-
-cf = input:up(cf + 40)
-cf = input:right(cf + 2)
-cf = input:circle(cf + 62)
-
-cf = input:up(cf + 40)
-cf = input:up(cf + 2)
-cf = input:up(cf + 2)
-cf = input:circle(cf + 60)
-
-cf = input:up(cf + 40)
-cf = input:down(cf + 2)
-cf = input:left(cf + 2)
-cf = input:right(cf + 2)
-cf = input:circle(cf + 58)
-
-cf = input:down(cf + 40)
-cf = input:down(cf + 2)
-cf = input:right(cf + 2)
-cf = input:left(cf + 2)
-cf = input:left(cf + 2)
-cf = input:circle(cf + 56)
-
-cf = input:down(cf + 40)
-cf = input:left(cf + 2)
-cf = input:right(cf + 2)
-cf = input:up(cf + 2)
-cf = input:left(cf + 2)
-cf = input:cross(cf + 46)
-
-cf = input:square(cf + 208)
-
--- Sequence 4
--- Combo n° 51
+-- Combo n° 5
+cf = cf + (104 * 2) - 8
 cf = input:circle(cf + 104)
-
-cf = input:right(cf + 40)
-cf = input:circle(cf + 64)
-
-cf = input:up(cf + 40)
-cf = input:up(cf + 2)
-cf = input:circle(cf + 62)
-
-cf = input:up(cf + 40)
-cf = input:up(cf + 2)
-cf = input:cross(cf + 62)
-
-cf = input:left(cf + 40)
-cf = input:right(cf + 2)
-cf = input:cross(cf + 62)
-
-cf = input:down(cf + 40)
-cf = input:down(cf + 2)
-cf = input:down(cf + 2)
-cf = input:circle(cf + 50)
-
-cf = input:square(cf + 104)
-
-cf = input:down(cf + 40)
-cf = input:up(cf + 2)
-cf = input:down(cf + 2)
-cf = input:circle(cf + 60)
-
-cf = input:left(cf + 40)
-cf = input:right(cf + 2)
-cf = input:left(cf + 2)
-cf = input:circle(cf + 60)
-
--- Sequence 5
--- Combo n° 1
-cf = input:circle(cf + 206)
 
 cf = input:cross(cf + 104)
 
@@ -183,32 +107,88 @@ cf = input:cross(cf + 64)
 cf = input:down(cf + 40)
 cf = input:cross(cf + 64)
 
-cf = input:up(cf + 40)
-cf = input:cross(cf + 54)
+cf = input:down(cf + 40)
+cf = input:down(cf + 2)
+cf = input:circle(cf + 62)
 
 cf = input:right(cf + 40)
 cf = input:right(cf + 2)
-cf = input:cross(cf + 62)
+cf = input:circle(cf + 62)
+
+cf = input:left(cf + 40)
+cf = input:left(cf + 2)
+cf = input:circle(cf + 62)
+
+cf = input:right(cf + 40)
+cf = input:right(cf + 2)
+cf = input:right(cf + 2)
+cf = input:circle(cf + 60 - 10)
+
+-- Sequence 4
+-- Combo n° 18
+cf = cf + 104
+cf = input:circle(cf + 104)
+
+cf = input:cross(cf + 104)
+
+cf = input:left(cf + 40)
+cf = input:circle(cf + 64)
+
+cf = input:down(cf + 40)
+cf = input:circle(cf + 64)
 
 cf = input:down(cf + 40)
 cf = input:down(cf + 2)
-cf = input:cross(cf + 62)
+cf = input:circle(cf + 62)
+
+cf = input:right(cf + 40)
+cf = input:right(cf + 2)
+cf = input:circle(cf + 62)
+
+cf = input:down(cf + 40)
+cf = input:down(cf + 2)
+cf = input:down(cf + 2)
+cf = input:cross(cf + 60 - 10)
 
 cf = input:up(cf + 40)
-cf = input:right(cf + 2)
+cf = input:down(cf + 2)
+cf = input:up(cf + 2)
+cf = input:cross(cf + 60)
+
+-- Sequence 5
+-- Combo n° 30
+cf = cf + 104
+cf = input:circle(cf + 104)
+
+cf = input:cross(cf + 104)
+
+cf = input:left(cf + 40)
+cf = input:circle(cf + 64)
+
+cf = input:up(cf + 40)
+cf = input:up(cf + 2)
 cf = input:cross(cf + 62)
 
--- Sequence 6 (not completed)
-cf = input:circle(cf + 206)
+cf = input:left(cf + 40)
+cf = input:right(cf + 2)
+cf = input:circle(cf + 62 - 10)
 
-cf = input:right(cf + 22)
-cf = input:circle(cf + 82)
+cf = input:down(cf + 40)
+cf = input:down(cf + 2)
+cf = input:down(cf + 2)
+cf = input:circle(cf + 60)
 
-cf = input:up(cf + 22)
+cf = input:right(cf + 40)
 cf = input:up(cf + 2)
-cf = input:cross(cf + 80)
+cf = input:right(cf + 2)
+cf = input:circle(cf + 60)
 
--- Skip Fever Time
-cf = input:cross(cf + 448, 2)
+cf = input:up(cf + 40)
+cf = input:down(cf + 2)
+cf = input:up(cf + 2)
+cf = input:down(cf + 2)
+cf = input:circle(cf + 58)
+
+-- Stop here, we already win
 
 return input:all()

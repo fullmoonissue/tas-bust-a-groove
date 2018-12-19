@@ -8,12 +8,6 @@ local joypadSet = require('bizhawk/dump')().fromLuaFilesToLuaInputs(
         config['currentTas']
 )
 
--- Preload a savestate, if exists
-local preloads = require(paths['preloads'])
-if(preloads[config['currentTas']] ~= nil) then
-    savestate.load(paths['savestate'] .. '/' .. preloads[config['currentTas']])
-end
-
 -- Load the current savestate, if exists
 if(config['loadSlot'] ~= nil) then
     savestate.loadslot(config['loadSlot'])
