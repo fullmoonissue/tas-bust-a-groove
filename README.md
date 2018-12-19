@@ -4,7 +4,6 @@
 
 * Emulator used : BizHawk [2.2](https://github.com/TASVideos/BizHawk/tree/2.2)
 * TAS Scaffolding Project used : Version [2.2.0](https://github.com/fullmoonissue/tas-scaffolding/tree/2.2.0)
-* [Source code of the TAS](https://github.com/fullmoonissue/tas-bust-a-groove)
 * Hard difficulty
 
 **Useful RAM Watch Addresses**
@@ -13,8 +12,6 @@
     0x068744 : P2, Score
     0x068768 : P1, Enthusiasm
     0x06877C : P2, Enthusiasm
-
-The .wch file is located here : bizhawk/ram-watch/Bust-A-Groove-USA.wch
 
 **Publication**
 
@@ -34,7 +31,7 @@ To increment your score, you have to do combos.
 
 A combo is a series of arrows and a final input (circle or cross) pressed during a cycle (a duration, here in frames).
 
-A dancer is able to attack (triangle) to stop the other dancer but this one can be dodged (square).
+A dancer is able to attack (triangle) to stop the other dancer but the attack can be dodged (square).
 
 **Cycle**
 
@@ -84,10 +81,10 @@ This is the points for each combo but only if you start from the first combo (no
 
 **Randomizer**
 
-It would be no fun to watch a TAS where always the same combos are executed. So, to make the game much harder, a custom
-script allows to make a randomized sequences of combos and solos (`make randomizer`).
+It would be not fun to watch always the same combos executed. So, to make the game much harder, a custom script allows
+to get a randomized sequences of combos and solos (`make randomizer`).
 
-Here are the sequences of combos and solos which were appeared when making this TAS :
+Here are the sequences which were appeared when making this TAS :
 
     Heat
     Sequences : 1 ; 33 ; 5 ; 18 ; 30 ; 15 ; 47 ; 19 ; 23 ; 8
@@ -129,17 +126,12 @@ Here are the sequences of combos and solos which were appeared when making this 
     Sequences : 3 ; 45 ; 62 ; 57 ; 50 ; 47 ; 31 ; 44 ; 30 ; 8
     Solos : 3 ; 2 ; 3 ; 3 ; 3 ; 3 ; 3 ; 3 ; 2 ; 1
     
-    Strike -> almost the best combos (except the first)
-    
-    Robo-Z -> all best combos
+    # I stopped the randomizer for Strike and Robo-Z
 
 **Improvements**
 
 Vs Frida and Kelly, it may be possible to skip earlier the "Fever Time" (1 or 2 frames) because I notice (from Hiro)
 that pushing during 2 frames instead of 1 the cross button made the skip of Fever Time earlier.
-
-In addition, maybe by pushing 2 frames the cross or start button, during the skip of the first cutscene, will result in
-a few frames saved.
 
 **Thanks**
 
