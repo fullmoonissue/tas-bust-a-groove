@@ -64,7 +64,7 @@ cycles are approximate.
 
 **Scoring**
 
-This is the points for each combo but only if you start from the beginning (you can start much later) :
+This is the points for each combo but only if you start from the first combo (no arrow and circle as final input) :
 
                          100
     
@@ -84,18 +84,8 @@ This is the points for each combo but only if you start from the beginning (you 
 
 **Randomizer**
 
-When you make a sequence of 8 combos (which finish by a Freeze), new combos are available (_to confirm_).
-
-At the beginning, you have 3 or 4 sequences of combos available (_to confirm_), after a Freeze, you have 59 combos
-available, after a second Freeze (_to confirm_), all the 64 combos are available.
-
-Thus, if you want to always win, make the combo n° 3 then combo n° 59 and finally only combo n° 64 (dodge attacks and
-always execute the secret solo).
-
-It would be no fun to watch a TAS where always the same combos are executed. So, to make the match much harder, a script
-allows to make a randomized sequences of combos and solos (call `make randomizer`).
-
-In this way to play, you have to think about how to win (well timed attacks will be very helpful).
+It would be no fun to watch a TAS where always the same combos are executed. So, to make the game much harder, a custom
+script allows to make a randomized sequences of combos and solos (`make randomizer`).
 
 Here are the sequences of combos and solos which were appeared when making this TAS :
 
@@ -123,7 +113,7 @@ Here are the sequences of combos and solos which were appeared when making this 
     Sequences : 3 ; 24 ; 57 ; 7 ; 42 ; 58 ; 35 ; 18 ; 47 ; 40
     Solos : 3 ; 2 ; 3 ; 1 ; 2 ; 3 ; 2 ; 1 ; 3 ; 2
     
-    Hamm (I was unable to win the first time because the sequences were weak, not enough points to make)
+    Hamm (I was unable to win the first time because the sequences were too weak, not enough points to make)
     Sequences : 3 ; 43 ; 27 ; 60 ; 42 ; 55 ; 17 ; 36 ; 35 ; 41
     Solos : 3 ; 3 ; 2 ; 3 ; 2 ; 3 ; 1 ; 2 ; 2 ; 2
     
