@@ -1,6 +1,6 @@
 # TAS Any% of Bust A Groove on PSX
 
-*Presentation and Gameplay*
+**Presentation and Gameplay**
 
 Bust A Groove is a dance / fight game.
 
@@ -14,7 +14,7 @@ A combo is a series of arrows and a final input (circle or cross) pressed during
 
 A dancer is able to attack (triangle) to stop the other dancer but this one can be dodged (square).
 
-*Cycle*
+**Cycle**
 
 The cycles are almost different for every songs.
 
@@ -38,21 +38,21 @@ cycles are approximate.
 
 Here are some other approximations :
 
-* You can start you combo 22 frames after the last one (or at the beginning)
+* You can start you combo 22 frames after the last one
 * You have 9 frames to push the final input of a combo
 
-*Publication*
+**Publication**
 
 _WIP_
 
-*About the run*
+**About the run**
 
 * Emulator used : BizHawk 2.2
 * TAS Scaffolding Project used : Version [2.2.0](https://github.com/fullmoonissue/tas-scaffolding/tree/2.2.0)
 * [Source code of the TAS](https://github.com/fullmoonissue/tas-bust-a-groove)
 * Hard difficulty
 
-*Useful RAM Watch Addresses*
+**Useful RAM Watch Addresses**
 
     0x068740 : P1, Score
     0x068744 : P2, Score
@@ -61,11 +61,11 @@ _WIP_
 
 The .wch file is located here : bizhawk/ram-watch/Bust-A-Groove-USA.wch
 
-*Combos*
+**Combos**
 
 ![Graph](https://raw.githubusercontent.com/fullmoonissue/tas-bust-a-groove/master/graph.png)
 
-*Scoring*
+**Scoring**
 
 This is the points for each combo but only if you start from the beginning (you can start much later) :
 
@@ -85,19 +85,20 @@ This is the points for each combo but only if you start from the beginning (you 
     
     2100 - 3500 - 4900 - 7000 - 7700 - 7700 - 8757
 
-*Randomizer*
+**Randomizer**
 
-When you make a sequence of 8 combos (which finish by a Freeze), new combos are available (_confirmation requested_).
+When you make a sequence of 8 combos (which finish by a Freeze), new combos are available (_to confirm_).
 
-At the beginning, you have 3 or 4 combos available (_confirmation requested_), after a Freeze, you have 59 combos
-available, after a second Freeze (_confirmation requested_), all the 64 combos are available.
+At the beginning, you have 3 or 4 sequences of combos available (_to confirm_), after a Freeze, you have 59 combos
+available, after a second Freeze (_to confirm_), all the 64 combos are available.
 
-Thus, if you want to always win, make the combo n° 3 then combo n° 59 and finally only combo n° 64 (and dodge attacks).
+Thus, if you want to always win, make the combo n° 3 then combo n° 59 and finally only combo n° 64 (dodge attacks and
+always execute the secret solo).
 
-It would be no fun to watch a TAS where always the same combos are executed. So to make the match much harder, a script
+It would be no fun to watch a TAS where always the same combos are executed. So, to make the match much harder, a script
 allows to make a randomized sequences of combos and solos (call `make randomizer`).
 
-With this way to play, you have to think about how to win (attacks will be very helpful).
+In this way to play, you have to think about how to win (well timed attacks will be very helpful).
 
 Here are the sequences of combos and solos which were appeared when making this TAS :
 
@@ -125,7 +126,7 @@ Here are the sequences of combos and solos which were appeared when making this 
     Sequences : 3 ; 24 ; 57 ; 7 ; 42 ; 58 ; 35 ; 18 ; 47 ; 40
     Solos : 3 ; 2 ; 3 ; 1 ; 2 ; 3 ; 2 ; 1 ; 3 ; 2
     
-    Hamm (second time, I was unable to win the first time because the sequences were weak -> not enough points to make)
+    Hamm (I was unable to win the first time because the sequences were weak, not enough points to make)
     Sequences : 3 ; 43 ; 27 ; 60 ; 42 ; 55 ; 17 ; 36 ; 35 ; 41
     Solos : 3 ; 3 ; 2 ; 3 ; 2 ; 3 ; 1 ; 2 ; 2 ; 2
     
@@ -145,15 +146,15 @@ Here are the sequences of combos and solos which were appeared when making this 
     
     Robo-Z -> all best combos
 
-*Improvements*
+**Improvements**
 
 Vs Frida and Kelly, it may be possible to skip earlier the "Fever Time" (1 or 2 frames) because I notice that pushing
 during 2 frames instead of 1 the cross button made the skip earlier.
 
-In addition, maybe by pushing 2 frames cross or start button, during the skip of the first cutscenes, will result in
-a few frames saved. 
+In addition, maybe by pushing 2 frames the cross or start button, during the skip of the first cutscene, will result in
+a few frames saved.
 
-*Thanks*
+**Thanks**
 
 Henry LaPierre : His [gamefaqs' article](https://gamefaqs.gamespot.com/ps/196846-bust-a-groove/faqs/3773) allows me to
 get the secret solo of Heat.
