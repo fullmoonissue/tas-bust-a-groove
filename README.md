@@ -1,5 +1,27 @@
 # TAS Any% of Bust A Groove on PSX
 
+**About the run**
+
+* Emulator used : BizHawk [2.2](https://github.com/TASVideos/BizHawk/tree/2.2)
+* TAS Scaffolding Project used : Version [2.2.0](https://github.com/fullmoonissue/tas-scaffolding/tree/2.2.0)
+* [Source code of the TAS](https://github.com/fullmoonissue/tas-bust-a-groove)
+* Hard difficulty
+
+**Useful RAM Watch Addresses**
+
+    0x068740 : P1, Score
+    0x068744 : P2, Score
+    0x068768 : P1, Enthusiasm
+    0x06877C : P2, Enthusiasm
+
+The .wch file is located here : bizhawk/ram-watch/Bust-A-Groove-USA.wch
+
+**Publication**
+
+_WIP_
+
+---
+
 **Presentation and Gameplay**
 
 Bust A Groove is a dance / fight game.
@@ -35,31 +57,6 @@ Here are the dancers with their approximate song's cycle :
 
 Sometimes, some frames (mainly 5 or 10) have to be added or removed during a combo, this is why I assume that the
 cycles are approximate.
-
-Here are some other approximations :
-
-* You can start you combo 22 frames after the last one
-* You have 9 frames to push the final input of a combo
-
-**Publication**
-
-_WIP_
-
-**About the run**
-
-* Emulator used : BizHawk 2.2
-* TAS Scaffolding Project used : Version [2.2.0](https://github.com/fullmoonissue/tas-scaffolding/tree/2.2.0)
-* [Source code of the TAS](https://github.com/fullmoonissue/tas-bust-a-groove)
-* Hard difficulty
-
-**Useful RAM Watch Addresses**
-
-    0x068740 : P1, Score
-    0x068744 : P2, Score
-    0x068768 : P1, Enthusiasm
-    0x06877C : P2, Enthusiasm
-
-The .wch file is located here : bizhawk/ram-watch/Bust-A-Groove-USA.wch
 
 **Combos**
 
@@ -148,8 +145,8 @@ Here are the sequences of combos and solos which were appeared when making this 
 
 **Improvements**
 
-Vs Frida and Kelly, it may be possible to skip earlier the "Fever Time" (1 or 2 frames) because I notice that pushing
-during 2 frames instead of 1 the cross button made the skip earlier.
+Vs Frida and Kelly, it may be possible to skip earlier the "Fever Time" (1 or 2 frames) because I notice (from Hiro)
+that pushing during 2 frames instead of 1 the cross button made the skip of Fever Time earlier.
 
 In addition, maybe by pushing 2 frames the cross or start button, during the skip of the first cutscene, will result in
 a few frames saved.
