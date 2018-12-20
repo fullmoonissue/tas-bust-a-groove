@@ -10,12 +10,10 @@
 
     0x068740 : P1, Score
     0x068744 : P2, Score
-    0x068768 : P1, Enthusiasm
-    0x06877C : P2, Enthusiasm
 
 **Publication**
 
-_WIP_
+https://www.youtube.com/watch?v=Kxq-E8L_lfY
 
 ---
 
@@ -130,15 +128,13 @@ Here are the sequences which were appeared when making this TAS :
 
 **Improvements**
 
-Vs Frida and Kelly, it may be possible to skip earlier the "Fever Time" (1 or 2 frames) because I notice (from Hiro)
-that pushing during 2 frames instead of 1 the cross button made the skip of Fever Time earlier.
+It may be possible to skip earlier the "Fever Time" on some fight endings.
 
 **Thanks**
 
 Henry LaPierre : His [gamefaqs' article](https://gamefaqs.gamespot.com/ps/196846-bust-a-groove/faqs/3773) allows me to
 get the secret solo of Heat.
 
-[Murat Khairulin](https://github.com/mxwell) : His github page with his
-[application](https://github.com/mxwell/mxwell.github.io) allows me to draw the graph of all the possible combos
-sequences. The drawings' urls are available
+Murat Khairulin : His [application](https://github.com/mxwell/mxwell.github.io) allows me to draw the graph of all the
+possible combos sequences. The drawings' urls are available
 [here](https://raw.githubusercontent.com/fullmoonissue/tas-bust-a-groove/master/mxwell-graph.txt)
